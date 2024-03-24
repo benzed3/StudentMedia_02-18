@@ -70,5 +70,26 @@ body {
     width: 600px;
   }
 
+  #main-content {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  #sidebar {
+    padding: 30px;
+    margin: 30px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  #main-content {
+    background: blue;
+  }
+
+  #sidebar {
+    background: red;
+  }
 
 }
